@@ -1,0 +1,320 @@
+/* *COMMON CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+a{
+    text-decoration: none;
+
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+
+}
+.align-center{
+    align-items:center;
+}
+.btn{
+    background-color:#cfc91d ;
+    color:#0b1016;
+    font-size: 800;
+    font-size: 14px;
+    padding: 19px 43px;
+    display:  inline-block;
+    
+
+}
+#about{
+        padding: 101px 0 ;}
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+}
+.heading p{
+    font-size: 16px;
+    color: #7e8387;
+}
+
+
+/* *COMMON CSS END */
+
+/* *NAV STARTS HERE */
+nav{
+    background-color:#02918b;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight:800 ;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+}
+
+/* *NAV ENDS HERE */
+
+/* *BANNER STARTS HERE */
+#banner{
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+#banner .container,
+#banner .row{
+    height:100%;
+   
+    
+    
+}
+.banner_cnt{
+    text-align: center;
+    color: white;
+}
+.banner_cnt h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+.banner_cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.banner_cnt img{
+    margin:52px 0 ;
+}
+ .banner_cnt a{
+    
+ }
+
+/* *BANNER ENDS HERE */
+/* *ABOUT STARTS */
+#about{
+    padding: 98px 0;
+}
+.about_card{
+    width: 25%;
+    text-align: center;
+    
+}
+.about_card span{
+    color:#02918c;
+    font-size: 50px;
+    
+}
+.about_card h4{
+    font-weight: 800;
+    font-size: 16px;
+    color:#7e8387 ;
+    padding: 28px 0;
+}
+.about_card p{
+    font-weight: 400;
+    font-size: 11px;
+    color:#7e8387;
+}
+.paragraph p{
+    text-align: center;
+    color: #a1a4a8;
+    line-height: 35px;
+    padding:39px 0;
+}
+.paragraph b{
+    color: #7e8287;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+/* *ABOUT ENDS HERE */
+
+/* *SERVICES STARTS HERE */
+#services{
+    background-image: url(../images/services.jpg);
+    width: 100%;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    line-height:18px ;
+   
+   
+}
+#services .container{
+    
+    text-align: left;
+    
+
+}
+#services .heading{
+    text-align:left;
+    line-height:40px ;
+   
+}
+.services_card{
+    width: 50%;
+    text-align: left; 
+    line-height: 25px;
+    
+    
+}
+#heading .p{
+    line-height: 35px;
+}
+.services_card h4{
+    font-weight: 800;
+    font-size:16px;
+    color: #7e8387;
+    padding: 5px 0;
+
+}
+.services_card p{
+    font-weight: 400;
+    font-size: 11px;
+    color: #7e8387;
+    line-height:18px ;
+
+}
+.services_card span{
+    color: #02918c;
+    font-size: 50px;
+    line-height:100px ;
+}
+#services .container,
+#services .row{
+    
+    text-align: center;
+    width:825px;
+   
+    padding: 25px 35px 25px 35px;
+    margin: 15px 20px;
+
+   
+}
+
+/* *SERVICES ENDS HERE */
+/* *MY WORK STARTS HERE */
+#my_work {
+    padding: 98px 0;
+}
+#my_work .work_card{
+    width: 25%;
+    text-align: center;
+    position: relative;
+    
+ }
+ #my_work .work_card img{
+    width: 100%;
+    display: block;
+
+ }
+ .work_card .overlay{
+    background-color:#02918abc;
+    position: absolute;
+    inset:35px;
+    color: aliceblue;
+    text-align: center;
+     padding: 56px 37px;
+     line-height: 30px;
+     transform:scale(0);
+     transition: 0.25s;
+     opacity: 0;
+}
+.work_card:hover .overlay{
+    transform: scale(1);
+    opacity: 1;
+    
+}
+    
+
+/* *MY WORK ENDS HERE */
+/* *CONTACT STARTS HERE */
+#Contact .Contact_me{
+    background-color: #0b1016;
+    padding: 70px 0;
+    
+}
+.Contact_me input{
+    width: 400px;
+     margin: auto;
+     display: block;
+     text-align: center;
+     background-color: transparent;
+     border: none;
+     border-bottom: 1px solid;
+     color: aliceblue;
+     margin-bottom: 40px;
+     padding: 10px;
+}
+
+
+/* *CONTACT ENDS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
